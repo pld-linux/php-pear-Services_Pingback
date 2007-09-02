@@ -31,7 +31,7 @@ receiving a pingback.
 In PEAR status of this package is: %{_status}.
 
 %description -l pl.UTF-8
-Pakiet implentujący obsługe Pingback, umożliwiając wysyłanie oraz
+Pakiet implentujący obsługę Pingback, umożliwiając wysyłanie oraz
 odbieranie zgłoszeń pingback.
 
 Ta klasa ma w PEAR status: %{_status}.
