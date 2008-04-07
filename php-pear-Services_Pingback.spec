@@ -5,7 +5,7 @@
 %define		_pearname	Services_Pingback
 
 Summary:	%{_pearname} - a Pingback User-Agent class
-Summary(pl):	%{_pearname} - obsługa pingback
+Summary(pl.UTF-8):	%{_pearname} - obsługa pingback
 Name:		php-pear-%{_pearname}
 Version:	0.2.2
 Release:	2
