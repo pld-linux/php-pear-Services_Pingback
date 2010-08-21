@@ -1,26 +1,23 @@
 %include	/usr/lib/rpm/macros.php
-%define		_class		Services
-%define		_subclass	Pingback
 %define		_status		alpha
 %define		_pearname	Services_Pingback
-
 Summary:	%{_pearname} - a Pingback User-Agent class
 Summary(pl.UTF-8):	%{_pearname} - obsługa pingback
 Name:		php-pear-%{_pearname}
 Version:	0.2.2
-Release:	2
+Release:	3
 License:	BSD License
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	06559c575ae0197468e27604d871bea3
 URL:		http://pear.php.net/package/Services_Pingback/
-BuildRequires:	php-pear-PEAR
+BuildRequires:	php-pear-PEAR >= 1:1.4.0
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-HTTP_Request >= 1.2.4
 Requires:	php-pear-Net_URL >= 1.0.14
 Requires:	php-pear-PEAR >= 1.4.0
-Requires:	php-pear-XML_RPC >= 1.0.3RC1
+Requires:	php-pear-XML_RPC >= 1.0.3-0.RC1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
