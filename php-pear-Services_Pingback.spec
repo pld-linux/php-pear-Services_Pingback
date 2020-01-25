@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		alpha
 %define		_pearname	Services_Pingback
 Summary:	%{_pearname} - a Pingback User-Agent class
